@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Styles to position iframe at the bottom left */
+        #chatbot-iframe {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            width: 350px;
+            height: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            z-index: 1000; /* Ensures it stays on top of other elements */
+        }
+    </style>
+</head>
+<body>
+    <iframe
+        id="chatbot-iframe"
+        src="https://www.chatbase.co/chatbot-iframe/A6-tWDhuRFBJndBpnnUZ6"
+        frameborder="0">
+    </iframe>
+    
+    <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="A6-tWDhuRFBJndBpnnUZ6"
+        domain="www.chatbase.co"
+        defer>
+    </script>
+</body>
+</html>

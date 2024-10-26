@@ -1,0 +1,26 @@
+body {
+    overflow: hidden; /* Prevent body scroll */
+  }
+  
+  .slider-container {
+    max-width: 100%; /* Ensure slider container fits within the viewport */
+    overflow: hidden; /* Hide any overflow */
+  }
+  
+  .doctor-slide {
+    display: flex; /* Use flex to align doctors horizontally */
+    justify-content: space-between; /* Center the content */
+  }
+  
+  .doctor-item {
+    flex: 1 0 33%; /* Each doctor takes up one-third of the space */
+    max-width: 33%; /* Max width of each item */
+    box-sizing: border-box; /* Include padding/borders in width calculations */
+    padding: 10px; /* Optional: add some spacing around each item */
+  }
+  
+  .speech-to-text {
+    max-width: 40%; /* Adjust width of speech-to-text component */
+    padding: 20px; /* Optional: add padding for spacing */
+    border-left: 1px solid #ccc; /* Optional: add a border for separation */
+  }
